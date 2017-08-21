@@ -18,7 +18,7 @@
 		B4A714721F492BFE001AF719 /* HXExpandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A714711F492BFE001AF719 /* HXExpandViewController.m */; };
 		B4A714751F492C1D001AF719 /* HXSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A714741F492C1D001AF719 /* HXSectionModel.m */; };
 		B4A7147C1F4931FC001AF719 /* HXTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A7147B1F4931FC001AF719 /* HXTableHeaderView.m */; };
-		B4A7147F1F494CA8001AF719 /* readme.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A7147E1F494CA8001AF719 /* readme.png */; };
+		B4A7147F1F494CA8001AF719 /* readme.gif in Resources */ = {isa = PBXBuildFile; fileRef = B4A7147E1F494CA8001AF719 /* readme.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +61,7 @@
 		B4A714741F492C1D001AF719 /* HXSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXSectionModel.m; sourceTree = "<group>"; };
 		B4A7147A1F4931FC001AF719 /* HXTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTableHeaderView.h; sourceTree = "<group>"; };
 		B4A7147B1F4931FC001AF719 /* HXTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTableHeaderView.m; sourceTree = "<group>"; };
-		B4A7147E1F494CA8001AF719 /* readme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = readme.png; sourceTree = "<group>"; };
+		B4A7147E1F494CA8001AF719 /* readme.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = readme.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,7 +201,7 @@
 		B4A7147D1F494C9E001AF719 /* Resoure */ = {
 			isa = PBXGroup;
 			children = (
-				B4A7147E1F494CA8001AF719 /* readme.png */,
+				B4A7147E1F494CA8001AF719 /* readme.gif */,
 			);
 			path = Resoure;
 			sourceTree = "<group>";
@@ -318,7 +318,7 @@
 				B4A7143A1F492A2F001AF719 /* LaunchScreen.storyboard in Resources */,
 				B4A714371F492A2F001AF719 /* Assets.xcassets in Resources */,
 				B4A714351F492A2F001AF719 /* Main.storyboard in Resources */,
-				B4A7147F1F494CA8001AF719 /* readme.png in Resources */,
+				B4A7147F1F494CA8001AF719 /* readme.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +588,7 @@
 				B4A714561F492A2F001AF719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4A714571F492A2F001AF719 /* Build configuration list for PBXNativeTarget "ExpandedTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +597,7 @@
 				B4A714591F492A2F001AF719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4A7145A1F492A2F001AF719 /* Build configuration list for PBXNativeTarget "ExpandedTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -604,6 +606,7 @@
 				B4A7145C1F492A2F001AF719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
